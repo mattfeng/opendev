@@ -1,5 +1,9 @@
 # open-dev
 
+<p align="center">
+  <img width="400px" alt="open-dev-logo" src="./assets/logo.png" />
+</p>
+
 ## Technical papers
 * TODO
 
