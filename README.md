@@ -5,7 +5,7 @@
 </p>
 
 ## Technical papers
-* TODO
+* Chung, E. 2011. CoRAM: An in-fabric memory architecture for FPGA-based computing. Ph.D. thesis, Carnegie Mellon University.
 
 ## Technical blogs
 * Statistical power and power analysis in Python ([http](https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python/))
@@ -20,6 +20,9 @@
 * Peter Norvig and Stuart Russell, **Artificial Intelligence**.
 * David Patterson and John Hennessy, **Computer Organization and Design**.
 * Robert Love, **Linux Kernel Development**.
+
+## Technical guides
+* Packaging Python projects ([http](https://packaging.python.org/tutorials/packaging-projects/))
 
 ## Professional development blogs
 * Matt Might, _How to email_. A primer on sending effective email messages. ([http](http://matt.might.net/articles/how-to-email/))
