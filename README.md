@@ -12,7 +12,11 @@
 * How Node works, part 1 ([http](https://medium.com/@igor.atakhanov/how-node-actually-works-part-1-the-operating-system-497fd0de8167), [ipfs](https://ipfs.io/ipfs/QmSQWYfmj1mkjvpfSLCgnbYBTDYx2bH8XaaNYmzSwhB2SA))
 * Design docs at Google ([http](https://www.industrialempathy.com/posts/design-docs-at-google/), [ipfs](https://ipfs.io/ipfs/QmRWkVEp2oDhGbDnpJWD3C6sA31nPSacerw8Yei1mV2jEd))
 * What computer science majors should know ([http](http://matt.might.net/articles/what-cs-majors-should-know/), [ipfs](https://ipfs.io/ipfs/QmTc3C48WDTJXPJSQ6RNKHyXK93apj8SymYNj86bcu7FwX))
+
 * What every programmer should know about memory, part 1 ([http](https://lwn.net/Articles/250967/), [ipfs](https://ipfs.io/ipfs/QmNomYepjoBVk3S1sMRsbVZB3c4E2nct2QRPDq6BPsTh8H))
+
+### Heterogeneous computing
+* **Faster parallel reductions on Kepler.** ([http](https://developer.nvidia.com/blog/faster-parallel-reductions-kepler/))
 
 ## Technical books
 * Edward Tufte, **The Visual Design of Quantitative Information**.
