@@ -41,3 +41,6 @@
 
 ### Data visualization
 * Textures.js: https://riccardoscalco.it/textures/
+
+### Computer aided design
+* Gmsh: 3-dimensional finite element mesh generator.
