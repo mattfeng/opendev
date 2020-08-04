@@ -1,0 +1,39 @@
+---
+title: Grokking Julia
+date: "2020-07-03"
+slug: julia
+---
+
+# Grokking Julia and its Syntax
+
+|word|syntax|definition|
+|:--:|:----:|:--------:|
+|**symbol**|`:foo`|An important construct of **metaprogramming**, a symbol allows one to represent variables within the Julia language itself.
+
+## Spaces, Semicolons, and Commas
+Spaces are for horizontal concatenation. Semicolons indicate vertical concatenation. Commas are used to denote enumerations (commas define arrays).
+
+## [Do-Block Syntax](https://docs.julialang.org/en/v1/manual/functions/index.html#Do-Block-Syntax-for-Function-Arguments-1) for Function Arguments
+
+`do param1 param2` creates an anonymous function with arguments `param1` and `param2`, and passes that function as the first argument.
+
+```julia
+map([1, 2, 3], [1, 2, 4]) do x, y
+  if x == y
+    return 1
+  else
+    return 0
+  end
+end
+
+# outputs:
+# 3-element Array{Int64,1}:
+#  1
+#  1
+#  0
+```
+
+## [Anonymous functions](https://docs.julialang.org/en/v1/manual/functions/index.html#man-anonymous-functions-1)
+```julia
+x -> x^2 + 2x - 1
+```

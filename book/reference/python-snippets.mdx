@@ -1,0 +1,59 @@
+
+# Pickle
+## Pickle an object.
+```python
+import pickle
+
+pickle.dump(object, open("save.p", "wb"))
+```
+
+## Unpickle an object.
+```python
+import pickle
+
+data = pickle.load(open("save.p", "rb"))
+```
+
+# Pandas
+## Set column as index when loading CSV file in pandas
+```python
+import pandas as pd
+
+df = pd.read_csv("data.csv", index_col=0)
+```
+
+## Convert list of dictionaries into dataframe
+```python
+import pandas as pd
+
+pd.DataFrame(list_of_dicts)
+```
+
+# Enumerations
+## Get enum from string name
+```python
+from enum import Enum
+class Build(Enum):
+    debug = 200
+    build = 400
+
+val = Build['debug']
+```
+
+# PyTorch
+
+## Types of optimizers
+```python
+optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
+optimizer = optim.Adam([var1, var2], lr=0.0001)
+```
+
+## Optimizer general routine
+```python
+for input, target in dataset:
+    optimizer.zero_grad()
+    output = model(input)
+    loss = loss_fn(output, target)
+    loss.backward()
+    optimizer.step()
+```

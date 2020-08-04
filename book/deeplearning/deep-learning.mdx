@@ -1,0 +1,26 @@
+---
+title: Deep Learning Tricks
+date: "2020-07-04"
+slug: dltricks
+---
+
+# Deep learning
+
+### Limit the number of CUDA devices used
+```bash
+CUDA_VISIBLE_DEVICES=0,1
+```
+
+Or, in Python, before any other imports:
+
+```python
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
+```
+
+
+### Average temperatures
+
+#### GPU
+* 70 degrees Celsius under load
+* 40 degrees Celsius idle

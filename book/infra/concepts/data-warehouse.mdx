@@ -1,0 +1,19 @@
+---
+title: Data warehouses
+date: 2020-08-03
+slug: infra/concepts/data-warehouse
+---
+
+## What is a _data warehouse_?
+
+A **data warehouse** is a system that pulls together data from many different sources within an organization, often for reporting and analysis.[^1] It does not store current information, nor is it updated in real-time. Rather, they store historical data, often enabling longitudinal data analysis (that is, analysis over time).
+
+Data warehouses process data via OLAP (online analytical processing) as opposed to OLTP (online transaction processing) in order to speed up analysis.
+
+Data in data warehouses is often **denormalized** to speed up queries and data analysis.
+
+Generally, data warehouses support a limited number of concurrent users.
+
+## References
+[^1] _The difference between a database and a data warehouse._ ([http](https://panoply.io/data-warehouse-guide/the-difference-between-a-database-and-a-data-warehouse/))
+

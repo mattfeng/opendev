@@ -1,0 +1,45 @@
+---
+title: CUDA Programming Cheatsheet
+date: "2020-07-09"
+slug: cuda
+---
+
+# CUDA Programming Cheatsheet
+
+## Definitions
+* A **thread**
+* A **block**
+* A **warp**
+* A **grid**
+* The **device** is the GPU (accelerator).
+* The **host** is the CPU.
+
+Set the number of blocks from ``N/TPB`` to ``(N + TPB - 1)/TPB`` to ensure that the number of blocks is rounded up (which will guarantee that no index is left uncomputed).
+
+## Reductions
+
+<div class="mermaid">
+graph LR;
+  a["Entire work (X)"];
+  b["Block 1 (N threads)"];
+  c["Block 2 (N threads)"];
+  d["Block ... (N threads)"];
+  e["Block X/N (N threads)"];
+  a-->b;
+  a-->c;
+  a-->d;
+  a-->e;
+  rb["Block 1 reduce (shared mem)"];
+  rc["Block 2 reduce"];
+  rd["Block ... reduce"];
+  re["Block X/N reduce"];
+  b-->rb;
+  c-->rc;
+  d-->rd;
+  e-->re;
+  final["Serial reduce (atomic)"];
+  rb-->final;
+  rc-->final;
+  rd-->final;
+  re-->final;
+</div>
