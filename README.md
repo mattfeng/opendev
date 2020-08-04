@@ -4,8 +4,12 @@
   <img width="400px" alt="open-dev-logo" src="./assets/logo.png" />
 </p>
 
+---
+
 ## Technical papers
 * Chung, E. 2011. CoRAM: An in-fabric memory architecture for FPGA-based computing. Ph.D. thesis, Carnegie Mellon University.
+
+---
 
 ## Technical blogs
 * Statistical power and power analysis in Python ([http](https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python/))
@@ -18,6 +22,8 @@
 ### Heterogeneous computing
 * **Faster parallel reductions on Kepler.** ([http](https://developer.nvidia.com/blog/faster-parallel-reductions-kepler/))
 
+---
+
 ## Technical books
 * Edward Tufte, **The Visual Design of Quantitative Information**.
 * Eric Lengyel, **Mathematics for 3D Game Programming and Computer Graphics**.
@@ -25,17 +31,30 @@
 * David Patterson and John Hennessy, **Computer Organization and Design**.
 * Robert Love, **Linux Kernel Development**.
 
+---
+
 ## Technical guides
 * Packaging Python projects ([http](https://packaging.python.org/tutorials/packaging-projects/))
 
+---
+
 ## Professional development blogs
 * Matt Might, _How to email_. A primer on sending effective email messages. ([http](http://matt.might.net/articles/how-to-email/))
+
+---
 
 ## Non-technical books
 * Frank Mittelback and Michel Goossens, **The LaTeX Companion**. How to use LaTeX effectively.
 * Justin Zobel, **Writing for Computer Science**.
 * Joey Asher, **Even a Geek can Speak**.
 * Florence Isaac, **Business Notes**. Guide to professional correspondence.
+
+### Books about writing
+* Stephen King, **On Writing**.
+* Roy Peter Clark, **Writing Tools**.
+* Joshua Schimel, **Writing Science**.
+
+---
 
 ## Libraries and tools
 
