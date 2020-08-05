@@ -12,8 +12,26 @@ The `systemd` init system is a powerful suite of software that can manage many a
 
 A **unit** is any resource that the system knows how to operate on and manage. It is the primary object that `systemd` tools work with. They are defined using configuration files called **unit files.**
 
-Units are similar to services in other init systems, but are more general and organized by function, allowing for greater composability. (TODO: give concrete example)
+Units extend beyond services. Rather, they are centered around functionality, enabling greater composability through more effective abstractions. Examples of units include network resources, devices, filesystem mounts, and services.
 
+The unit files are generally stored in ``/lib/systemd/system``.
+
+### Types of units
+
+|Unit type|Suffix|Description|
+|:--------|:-----|:----------|
+|Service|`.service`|Describes how to manage a service or application on the server.|
+|Socket|||
+|Device|||
+|Mountpoint|||
+|Automatic mountpoint|||
+|Swap|||
+|Target|||
+|Path|||
+|Timer|||
+|Snapshot|||
+|Slice|||
+|Scope|||
 
 ## References
 [^1]: **Understanding Systemd Units and Unit Files.** ([http](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files))
