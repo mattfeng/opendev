@@ -1,4 +1,4 @@
-# open-dev
+# opendev
 
 <p align="center">
   <img width="400px" alt="open-dev-logo" src="./assets/logo.png" />
@@ -59,8 +59,11 @@
 
 ## Libraries and tools
 
+### Infrastructure
+* **`mozilla/sops`**: Secrets manager, encrypted files editor. ([github](https://github.com/mozilla/sops))
+
 ### Data visualization
-* Textures.js: https://riccardoscalco.it/textures/
+* **Textures.js**: Texture generation library for D3. ([http](https://riccardoscalco.it/textures/))
 
 ### Computer aided design
 * Gmsh: 3-dimensional finite element mesh generator.
