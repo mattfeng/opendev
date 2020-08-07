@@ -57,6 +57,11 @@
 
 ---
 
+## News outlets
+* **The Markup.** ([http](https://themarkup.org/))
+
+---
+
 ## Libraries and tools
 
 ### Infrastructure
