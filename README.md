@@ -39,6 +39,7 @@
 ### Compilations
 * **Y Combinator Startup Library.**
 * **Y Combinator Essential Startup Advice.** ([http](https://www.ycombinator.com/library/4D-yc-s-essential-startup-advice))
+* **Marc Andreessen's Startup Guide.** ([http](https://pmarchive.com/))
 
 ### Blogs
 * Matt Might, _How to email_. A primer on sending effective email messages. ([http](http://matt.might.net/articles/how-to-email/))
