@@ -18,6 +18,7 @@
 * What computer science majors should know. ([http](http://matt.might.net/articles/what-cs-majors-should-know/), [ipfs](https://ipfs.io/ipfs/QmTc3C48WDTJXPJSQ6RNKHyXK93apj8SymYNj86bcu7FwX))
 * What every programmer should know about memory, part 1. ([http](https://lwn.net/Articles/250967/), [ipfs](https://ipfs.io/ipfs/QmNomYepjoBVk3S1sMRsbVZB3c4E2nct2QRPDq6BPsTh8H))
 * Essays on programming I think about a lot. ([http](https://www.benkuhn.net/progessays/))
+* _An introduction to Terraform._ ([http](https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180))
 
 #### Heterogeneous computing
 * **Faster parallel reductions on Kepler.** ([http](https://developer.nvidia.com/blog/faster-parallel-reductions-kepler/))
