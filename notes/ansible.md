@@ -27,3 +27,6 @@ ansible <target group name> -a <cmd>
 * `stat`. get information about a file.
 * `async_status`. get information about background task.
 * `shell`. run a shell command (gives access to pipes and redirects).
+
+## References
+* _Ansible for DevOps repository._ ([github](https://github.com/geerlingguy/ansible-for-devops))
