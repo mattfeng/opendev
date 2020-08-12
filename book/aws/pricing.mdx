@@ -4,17 +4,29 @@ date: 2020-08-11
 slug: aws/pricing
 ---
 
-## Elastic Compute Cloud (EC2)
+## Elastic Compute Cloud (EC2)[^ec2pricing]
 
 <EC2Pricing />
 
-### Sources
-* _AWS EC2 on-demand pricing._[^ec2pricing]
+## Elastic Container Registry (ECR)[^ecrpricing]
 
-## Elastic Container Registry (ECR)
+ECR charges for the _amount of data stored in repositories_, and _data transferred to/from the Internet._
 
-### Sources
-* _AWS ECR pricing._[^ecrpricing]
+### Storage
+Storage is $0.10 per GB-month.
+
+### Data transfer
+Data transfer "in" refers to pushing images into ECR. Data transfer "out" refers to pulling images from ECR. The exception is pushing/pulling between EC2 and ECR, **within the same region**. Costs are free within the same region, between EC2 and ECR only.
+
+#### Region: `us-east-1` (N. Virginia)
+|Action|Price|
+|:-----|:----|
+|Data transfer in|Free|
+|Data transfer out (first 1GB/month)|Free|
+|Data transfer out (next 10TB/month)|$0.09 per GB|
+|Data transfer out (next 40TB/month)|$0.85 per GB|
+|Data transfer out (next 100TB/month)|$0.07 per GB|
+|Data transfer out (remaining)|$0.05 per GB|
 
 ## References
 
