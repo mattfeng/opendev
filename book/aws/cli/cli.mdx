@@ -1,0 +1,10 @@
+---
+title: AWS CLI Cheatsheet
+date: 2020-08-11
+slug: aws/cli
+---
+
+## Cost Explorer
+```
+aws ce get-cost-and-usage --time-period Start=2020-08-01,End=2020-09-01 --granularity MONTHLY --metrics "BLENDED_COST,UNBLENDED_COST" --group-by "Type=DIMENSION,Key=SERVICE" --profile <profile>
+```
