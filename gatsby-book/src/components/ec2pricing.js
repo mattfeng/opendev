@@ -2,10 +2,11 @@ import React, { Component } from "react"
 import pricingData from "../data/ec2-linux-demand.json"
 
 const GPU_INSTANCES = {
-  "g4dn": "16GB",
+  "g4dn": "16GB (Tesla T4)",
   "g3": "8GB",
   "p2": "12GB",
-  "p3": "16GB"
+  "p3": "16GB (Tesla V100)",
+  "p3dn": "32GB (Tesla V100)"
 }
 
 class EC2Pricing extends Component {
@@ -49,7 +50,7 @@ class EC2Pricing extends Component {
                 <td>{ instanceType }</td>
                 <td>{ attr["aws:ec2:vcpu"] }</td>
                 <td>{ attr["aws:ec2:memory"] }</td>
-                <td>{ gpu } { gpuInfo ? ` (${gpuInfo})`:undefined }</td>
+                <td>{ gpu } { gpuInfo ? ` x ${gpuInfo}`:undefined }</td>
                 <td>{ price }</td>
               </tr>
             )
