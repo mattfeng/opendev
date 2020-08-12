@@ -7,7 +7,10 @@ slug: aws/ec2
 ## EC2 Instances
 
 ### General notes
-* Any instance type ending with `g` is ARM Graviton.
+* Any instance type ending with `a` uses AMD Ryzen processors.
+* Any instance type ending with `g` uses ARM Graviton processors.
+* Any instance type with `d` in its suffix supports NVMe local storage.[^3]
+* Any instance type with `n` in its suffix runs on the AWS Nitro hypervisor.
 
 ### Sources:
 * _AWS EC2 instance types._[^1]
@@ -16,3 +19,4 @@ slug: aws/ec2
 ## References
 [^1]: _AWS EC2 instance types._ ([http](https://aws.amazon.com/ec2/instance-types/))
 [^2]: _AWS EC2 on-demand pricing._ ([http](https://aws.amazon.com/ec2/pricing/on-demand/))
+[^3]: _Coming soon: Graviton2-powered EC2 instances._ ([http](https://aws.amazon.com/blogs/aws/coming-soon-graviton2-powered-general-purpose-compute-optimized-memory-optimized-ec2-instances/))

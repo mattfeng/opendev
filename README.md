@@ -74,5 +74,8 @@
 ### Data visualization
 * **Textures.js**: Texture generation library for D3. ([http](https://riccardoscalco.it/textures/))
 
+### Machine learning
+* **AmpliGraph**: Knowledge graph embeddings. ([github](https://github.com/Accenture/AmpliGraph))
+
 ### Computer aided design
 * Gmsh: 3-dimensional finite element mesh generator.
