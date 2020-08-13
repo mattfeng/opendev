@@ -29,6 +29,7 @@
 * Peter Norvig and Stuart Russell, **Artificial Intelligence**.
 * David Patterson and John Hennessy, **Computer Organization and Design**.
 * Robert Love, **Linux Kernel Development**.
+* Adnan Aziz, Tsung-Hsien Lee, and Amit Prakash, **Elements of Programming Interviews.** ([http](https://elementsofprogramminginterviews.com/))
 
 ### Tutorials and guides
 * Packaging Python projects ([http](https://packaging.python.org/tutorials/packaging-projects/))
