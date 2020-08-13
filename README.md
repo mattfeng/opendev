@@ -70,6 +70,7 @@
 
 ### Infrastructure
 * **`mozilla/sops`**: Secrets manager, encrypted files editor. ([github](https://github.com/mozilla/sops))
+* **`dtan4/terraforming`**: Import AWS infrastructure into Terraform. ([http](http://terraforming.dtan4.net/), [github](https://github.com/dtan4/terraforming))
 
 ### Data visualization
 * **Textures.js**: Texture generation library for D3. ([http](https://riccardoscalco.it/textures/))
