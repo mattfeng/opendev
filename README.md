@@ -29,6 +29,7 @@
 * Peter Norvig and Stuart Russell, **Artificial Intelligence**.
 * David Patterson and John Hennessy, **Computer Organization and Design**.
 * Robert Love, **Linux Kernel Development**.
+* Adnan Aziz, Tsung-Hsien Lee, and Amit Prakash, **Elements of Programming Interviews.** ([http](https://elementsofprogramminginterviews.com/))
 
 ### Tutorials and guides
 * Packaging Python projects ([http](https://packaging.python.org/tutorials/packaging-projects/))
@@ -70,6 +71,7 @@
 
 ### Infrastructure
 * **`mozilla/sops`**: Secrets manager, encrypted files editor. ([github](https://github.com/mozilla/sops))
+* **`dtan4/terraforming`**: Import AWS infrastructure into Terraform. ([http](http://terraforming.dtan4.net/), [github](https://github.com/dtan4/terraforming))
 
 ### Data visualization
 * **Textures.js**: Texture generation library for D3. ([http](https://riccardoscalco.it/textures/))
