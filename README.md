@@ -70,13 +70,18 @@
 ## Libraries and tools
 
 ### Infrastructure
+#### Provisioning
 * **`mozilla/sops`**: Secrets manager, encrypted files editor. ([github](https://github.com/mozilla/sops))
 * **`dtan4/terraforming`**: Import AWS infrastructure into Terraform. ([http](http://terraforming.dtan4.net/), [github](https://github.com/dtan4/terraforming))
 
-### Data visualization
+#### Visualization
+* **Isoflow**: Clean infrastructure diagramming. ([http](https://isoflow.io/))
+
+### Data science and machine learning
+#### Visualization
 * **Textures.js**: Texture generation library for D3. ([http](https://riccardoscalco.it/textures/))
 
-### Machine learning
+#### Natural language processing
 * **AmpliGraph**: Knowledge graph embeddings. ([github](https://github.com/Accenture/AmpliGraph))
 
 ### Computer aided design
