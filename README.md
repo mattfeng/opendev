@@ -10,6 +10,7 @@
 
 ### Papers
 * Chung, E. 2011. CoRAM: An in-fabric memory architecture for FPGA-based computing. Ph.D. thesis, Carnegie Mellon University.
+* _Class-balanced loss based on effective number of samples._ (Cui et al., **CVPR** 2019) ([http](https://openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf))
 
 ### Blogs
 * Statistical power and power analysis in Python. ([http](https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python/))
