@@ -6,7 +6,7 @@
 
 import React, { Component } from "react"
 import Layout from "../components/layout"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import EC2Pricing from "../components/ec2pricing"
@@ -14,14 +14,16 @@ import EC2Pricing from "../components/ec2pricing"
 require(`katex/dist/katex.min.css`)
 
 const shortcodes = {
-  EC2Pricing
+  EC2Pricing,
+  Link
 }
 
 class Section extends Component {
   render() {
+    const { title } = this.props.data.mdx.frontmatter
     return (
       <Layout>
-        <h1>{ this.props.data.mdx.frontmatter.title }</h1>
+        <h1 dangerouslySetInnerHTML={{ __html: title }}></h1>
         <MDXProvider components={shortcodes}>
           <MDXRenderer>
             { this.props.data.mdx.body }
