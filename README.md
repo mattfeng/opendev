@@ -10,6 +10,7 @@
 
 ### Papers
 * Chung, E. 2011. CoRAM: An in-fabric memory architecture for FPGA-based computing. Ph.D. thesis, Carnegie Mellon University.
+* _Class-balanced loss based on effective number of samples._ (Cui et al., **CVPR** 2019) ([http](https://openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf))
 
 ### Blogs
 * Statistical power and power analysis in Python. ([http](https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python/))
@@ -71,13 +72,18 @@
 ## Libraries and tools
 
 ### Infrastructure
+#### Provisioning
 * **`mozilla/sops`**: Secrets manager, encrypted files editor. ([github](https://github.com/mozilla/sops))
 * **`dtan4/terraforming`**: Import AWS infrastructure into Terraform. ([http](http://terraforming.dtan4.net/), [github](https://github.com/dtan4/terraforming))
 
-### Data visualization
+#### Visualization
+* **Isoflow**: Clean infrastructure diagramming. ([http](https://isoflow.io/))
+
+### Data science and machine learning
+#### Visualization
 * **Textures.js**: Texture generation library for D3. ([http](https://riccardoscalco.it/textures/))
 
-### Machine learning
+#### Natural language processing
 * **AmpliGraph**: Knowledge graph embeddings. ([github](https://github.com/Accenture/AmpliGraph))
 
 ### Computer aided design
